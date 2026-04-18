@@ -30,6 +30,10 @@ tools/
   intake_tools.py             — @tool functions used by the agents
 config.py                     — model provider selection (Ollama or Bedrock)
 main.py                       — graph construction and sample scenarios
+requirements.txt
+.env.example
+.gitignore
+README.md
 ```
 
 ---
