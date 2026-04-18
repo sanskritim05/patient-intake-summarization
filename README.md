@@ -39,8 +39,8 @@ main.py                       — graph construction and sample scenarios
 **Requirements:** Python 3.10+, [Ollama](https://ollama.com/) installed and running locally.
 
 ```bash
-git clone https://github.com/sanskritim05/agentic-ai-loan-application
-cd agentic-ai-loan-application
+git clone https://github.com/sanskritim05/patient-intake-summarization
+cd patient-intake-summarization
 
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
