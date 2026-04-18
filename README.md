@@ -66,20 +66,6 @@ python main.py 2    # Scenario C — complete intake with urgent flags
 
 ---
 
-## Using AWS Bedrock
-
-Set the following in your `.env`:
-
-```
-USE_BEDROCK=true
-BEDROCK_MODEL_ID=anthropic.claude-sonnet-4-20250514-v1:0
-AWS_REGION=us-east-1
-```
-
-Standard AWS credentials must be configured (`~/.aws/credentials` or environment variables). The graph code is identical — only the model provider changes.
-
----
-
 ## Dependencies
 
 - [strands-agents](https://github.com/strands-agents/sdk-python) — agent framework and GraphBuilder
