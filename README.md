@@ -51,10 +51,10 @@ If critical fields are missing, the pipeline skips symptom organization and rout
 5. Start Ollama and pull the model
    ```sh
    ollama serve
-   ollama pull llama3.1
+   ollama pull llama3.2
    ```
 
-> The default model is `llama3.1`. Edit `.env` to switch providers or models.
+> The default model is `llama3.2`. Edit `.env` to switch providers or models.
 
 
 <!-- USAGE -->
